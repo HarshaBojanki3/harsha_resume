@@ -1,0 +1,204 @@
+%-------------------------
+% Resume in Latex
+% Author : Harsha Vardhan Bojanki
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://harshabojanki3.github.io/HarshaBojanki.github.io/}{\Large Harsha Vardhan Bojanki}} & Email : \href{mailto:harshabojanki15@outlook.com}{harshabojanki15@outlook.com}\\
+  \href{https://harshabojanki3.github.io/HarshaBojanki.github.io/}{https://harshabojanki3.github.io/HarshaBojanki.github.io/} & Mobile : \href{tel:+19379004380}{+1-937-900-4380} \\
+  & GitHub : \href{https://github.com/harshabojanki3}{harshabojanki3} \\
+  & LinkedIn : \href{https://www.linkedin.com/in/harsha-bojanki}{harsha-bojanki} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Wright State University}{Dayton, OH}
+      {Master of Science in Computer Science;  GPA: 3.714}{Aug. 2022 -- April 2024}
+    \resumeSubheading
+      {Lendi Institute of Engineering and Technology}{AndhraPradesh, India}
+      {Bachelor of Engineering in Electronics and Communication Engineering;  GPA: 3.5}{June 2015 -- May 2019}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Wright State University}{Dayton, OH}
+      {Graduate Teaching Assistant}{Aug 20 - Present}
+      \begin{itemize}
+          \item Led lectures, discussions, and labs to enhance student understanding.
+          \item ○ Offered one-on-one assistance and constructive feedback.
+          \item ○ Collaborated on teaching materials to improve learning
+      \end{itemize}
+      
+    \resumeSubheading
+      {WINFACTS TECHNOLOGIES PRIVATE LIMITED}{Bangalore,India}
+      {Full-stack Developer}{Jan 2020–Jun 2022}
+      \begin{itemize}
+          \item Expertise in front-end and back-end technologies, building web interfaces, and developing APIs.
+          \item  Collaborated with cross-functional teams and integrated agile and DevOps practices.
+          \item Identified and optimized code for performance and troubleshooted technical issues.
+      \end{itemize}
+      
+    \resumeSubheading
+      {SERVBIZ SOLUTIONS AND SERVICES PRIVATE LIMITED}{Bangalore,India}
+      {Full-stack Developer}{May 2019–Nov 2019}
+      \begin{itemize}
+          \item Gained hands-on experience in front-end and back-end development technologies. Assisted in building and
+          \item maintaining web applications.
+          \item Worked closely with experienced developers, participated in code reviews, and learned best practices.
+          \item Provided debugging and testing support, actively contributed to project tasks, and assisted in deployment
+          \item and maintenance
+      \end{itemize}
+
+    \resumeSubheading
+      {GR Infotech}{TamilNadu,India}
+      {Web Development Intern}{Mar 2019 - May 2019}
+      \begin{itemize}
+          \item Designed, implemented, and tested web applications, actively participated in development cycles, and adopted new technologies, directly contributing to project success and advancing my web development skills.
+      \end{itemize}
+\resumeSubheading
+      {Spatez Technologies}{Kerala,India}
+      {IoT Intern}{April 2018 - Aug 2018}
+      \begin{itemize}
+          \item Developed and tested firmware, collaborated on design specifications, and explored innovative solutions for IoT and embedded systems, significantly advancing project goals and enhancing my engineering expertise.
+      \end{itemize}
+   \resumeSubheading
+      {Visakhapatnam Steel Plant}{Visakhapatnam,India}
+      {Telecommunication Intern}{May 2017 - Aug 2017}   
+      \begin{itemize}
+          \item Engaged in telecommunications projects, applied electronic and communication engineering principles to solve complex issues, and leveraged cutting-edge technologies, significantly contributing to the enhancement of network performance and my professional growth in telecommunications.
+      \end{itemize}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+   \resumeSubItem{Predictive modeling for identifying potentially Hazardous Asteroids}
+      {Developed a machine learning model to classify and predict the trajectory of near-Earth objects.Used Python and various data analysis libraries.}
+    \resumeSubItem{React Quiz Game App:}
+      {Developed a quiz game with a dynamic question flow and real-time scoring. Implemented a seamless UI/UX and integrated APIs for content management}
+    \resumeSubItem{Total eCommerce application:}
+      {Developed a comprehensive e-commerce platform, enhancing
+customer engagement and sales.}
+    \resumeSubItem{AN RADIX-2 FFT ARCHITECTURE:}
+      {Designed architecture for processing twin data streams for
+MIMO systems, improving efficiency.}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+\resumeSubHeadingListStart
+\begin{itemize}[noitemsep]
+    \item \textbf{Front-End:} HTML, CSS, JavaScript, React.js, Responsive Web Design
+    \item \textbf{Back-End:} C\#.NET, JavaScript, SQL, Node.js
+    \item \textbf{Database:} SQL, Database-driven Web Apps
+    \item \textbf{Version Control:} Git, GitHub, Git BASH
+    \item \textbf{Cloud Services:} Amazon Web Services (AWS)
+    \item \textbf{IDEs:} Visual Studio
+    \item \textbf{Sys. Admin:} Linux, Ubuntu
+    \item \textbf{Telecom:} Radio Frequency (RF), Frequency Analysis
+    \item \textbf{Languages:} Java, C\#.NET
+    \item \textbf{Web Design \& Soft Skills:} Web Design, Web Apps; Communication, Quality, Testing, Debugging, Security
+\end{itemize}
+\resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
